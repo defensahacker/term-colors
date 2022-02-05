@@ -1,0 +1,16 @@
+function grey () { pretty_str="\033[1;30m$str\033[0m"; }
+function grey2 () { pretty_str="\033[0;37m$str\033[0m"; }
+function black () { pretty_str="\033[0;30m$str\033[0m"; }
+function red () { pretty_str="\033[0;31m$str\033[0m"; }
+function red2 () { pretty_str="\033[1;31m$str\033[0m"; }
+function green () { pretty_str="\033[0;32m$str\033[0m"; }
+function green2 () { pretty_str="\033[1;32m$str\033[0m"; }
+function yellow () { pretty_str="\033[1;33m$str\033[0m"; }
+function yellow2 () { pretty_str="\033[0;33m$str\033[0m"; }
+function blue () { pretty_str="\033[0;34m$str\033[0m"; }
+function blue2 () { pretty_str="\033[1;34m$str\033[0m"; }
+function purple () { pretty_str="\033[0;35m$str\033[0m"; }
+function pink () { pretty_str="\033[1;35m$str\033[0m"; }
+function cyan () { pretty_str="\033[0;36m$str\033[0m"; }
+function cyan2 () { pretty_str="\033[1;36m$str\033[0m"; }
+function white () { pretty_str="\033[1;37m$str\033[0m"; }
